@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+const person = {name: 'Luís'}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App person={person}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
